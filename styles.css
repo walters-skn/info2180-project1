@@ -83,30 +83,48 @@ nav :hover{
     color: #48BB78;
 }
 
-.leearn-about .container .cards .card{
+.learn-about .container .cards .card{
     border-color: #E2E8F0;
     box-shadow: 5px 3px #48BB78;
 
-    /* margin: ; */
 }
+
+.learn-about .container h3{
+    color:#48BB78;
+    font-size: 21px;
+}
+
 
 /* COVID 19 section */
 
-.testing-description{
+.testing{
     background-color:#4A5568;
     color: white;
-    flex-basis: 600px;
+    height: 200px;
 }
 
-/* Learn more section */
+.testing .container{
+    display:flex;
+    justify-content: center;
+    /* align-content: stretch; */
+    align-items: center;
+}
 
 .cta{
-    background-color:#48BB78;
-    color:white;
-    border-radius: 5px;
+    margin: auto;
+    flex-basis:300px;
 }
 
-/*stories section */
+.cta .btn{
+    background-color:#48BB78;
+    border-radius: 5px;
+    padding:10px;
+    float: right;
+    color:white;
+    width: 100px;
+} 
+
+/* recent stories section */
 
 .stories h2{
     color: #5A67D8;
@@ -116,11 +134,26 @@ nav :hover{
     font-size: 18px;
 }
 
-.stories .container .article img{
+.article-body{
+    padding: 20px;
+}
+
+article img{
+    float: left;
+    border-radius:50%;
+    height:150px;
+    width: 150px;
+}
+
+p a{
+    color: #5A67D8;
+}
+
+/* .stories .container .article img{
     float:left;
     border-radius: 60%;
-    
-}
+   
+} */
 
 /*newsletter section */
 
@@ -136,7 +169,7 @@ nav :hover{
     text-align:center;
     width: 140px;
     height:45px;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 
 form{
@@ -148,7 +181,7 @@ form{
 input{
     width: 300px;
     height: 40px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding-right: 10px;
 }
 
