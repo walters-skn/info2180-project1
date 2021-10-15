@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
 			message.innerHTML = "Email is required for submission"
 		}
         else{
-			message.innerHTML = "Thank You For Subscribing! Your email" + email + "has been submitted";
+			message.innerHTML = "Thank You For Subscribing! Your email has been submitted";
 		}
 	});
 });
